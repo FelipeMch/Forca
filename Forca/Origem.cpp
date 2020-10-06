@@ -87,7 +87,7 @@ int main()
 
 	do
 	{
-		cout << "\nDeseja jogar de novo? (S/N) "; // menu para o jogador jogar de novo ou não
+		cout << "\nDeseja jogar de novo? (S/N)\n "; // menu para o jogador jogar de novo ou não
 		cin >> opcao;
 
 		opcao = toupper(opcao);
