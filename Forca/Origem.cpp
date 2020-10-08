@@ -2,7 +2,7 @@
 * Programa: Jogo de adivinhação para crianças
 * Data de criação: 05/10/2020
 * Autor: Felipe Machado (https://github.com/FelipeMch) 
-* Versão: 2.0
+* Versão: 1.0
 */
 
 #include <iostream>
@@ -23,8 +23,8 @@ int main()
 
 	string listaC[20]; // lista de controle para comparar com a palavra que foi sorteada
 	char letra[1];  // armazena a tentativa do jogador e compara com a listaC para saber se é igual ou não à letra do vetor 
-	char opcao,
-		nLetra; // armazena a decisão do jogador (quer ou não jogar de novo)
+	char opcao, // armazena a decisão do jogador (quer ou não jogar de novo)
+		nLetra; 
 
 	// define alguns valores para o início do jogo
 	int chances = 5,
